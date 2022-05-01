@@ -14,7 +14,7 @@ body {
   background-color: #eee;
 }
 
-a {
+a:link {
   color: #111;
 }
 
