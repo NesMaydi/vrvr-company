@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100;300;500&display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Exa', sans-serif;
+  font-weight: 300;
+  background-color: #eee;
+}
+
+li {
+  list-style-type: none;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.content h2 {
+  width: 100%;
+  padding: 10px;
+}
+
+.content h3 {
+  width: 100%;
+  padding: 10px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding-top: 2rem;
+  max-height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+header .nav {
+  text-transform: capitalize;
+  text-decoration: underline;
+  letter-spacing: 0.2rem;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+main .mission {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  min-height: 300px;
+  width: 100%;
+  background-image: url(images/mission.jpg);
+}
+
+main .companies-card {
+  padding-top: 2rem;
+}
+
+main .companies-card .companies-area {
+  margin: 1% auto 1% auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .companies-card .companies {
+  margin-bottom: 1%;
+  width: 470px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  justify-items: center;
+}
+
+main .companies-card .companies-img {
+  margin: auto;
+  width: 220px;
+  padding: 10px;
+}
+
+main .companies-card .companies-name {
+  letter-spacing: 0.3rem;
+  padding: 10px;
+  min-width: 250px;
+  text-align: center;
+  font-weight: bold;
+}
+
+main .team {
+  width: 100%;
+  max-height: 980px;
+  background-image: url(images/team.jpg);
+}
+
+main .team .team-rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .team .team-rows .team-card {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  max-width: 300px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #eee;
+  font-size: 0.75rem;
+  justify-items: center;
+}
+
+main .team .team-rows .team-card .team-img {
+  width: 200px;
+}
+
+main .team .team-rows .team-card .team-job {
+  max-width: 280px;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  min-height: 250px;
+  background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+footer .content {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .content h5 {
+  margin: 1% 0 1% 0;
+}
+
+footer .content h6 {
+  margin-top: 3%;
+}
+
+@media screen and (max-width: 425px) {
+  main .companies-area {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  header .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .nav .nav-items {
+    margin-bottom: 1%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .team {
+    min-height: 1280px;
+  }
+  .team .team-rows {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
