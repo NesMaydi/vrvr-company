@@ -126,51 +126,56 @@ main {
 
 
 
-        .team-rows{
-display: flex;
-justify-content: space-around;
-align-items: center;
-
-     
-        .team-card {
-            padding: 10px;
+        .team-rows {
             display: flex;
-            flex-direction: column;
+            justify-content: space-around;
             align-items: center;
-            align-content: center;
-            max-width: 300px;
-            flex-wrap: wrap;
-            color: #eee;
-            font-size: 0.75rem;
-            justify-items: center ;
-            .team-img {
-                width: 200px;
 
-            }
-            .team-job{
-                max-width: 280px;
+
+            .team-card {
                 padding: 10px;
-                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                align-content: center;
+                max-width: 300px;
+                flex-wrap: wrap;
+                color: #eee;
+                font-size: 0.75rem;
+                justify-items: center;
+
+                .team-img {
+                    width: 200px;
+
+                }
+
+                .team-job {
+                    max-width: 280px;
+                    padding: 10px;
+                    text-align: center;
+                }
             }
         }
     }
-   }
 
 }
 
-footer{
+footer {
     min-height: 250px;
     background-color: #eee;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
-    .content{
+
+    .content {
         justify-content: space-between;
-        h5{
+
+        h5 {
             margin: 1% 0 1% 0;
         }
-        h6{
+
+        h6 {
             margin-top: 3%;
         }
     }
@@ -185,6 +190,27 @@ footer{
         }
     }
 }
+
+@media screen and (max-width: 650px) {
+
+    header{
+        h1{
+            font-size: 38px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 920px) {
+
+    header {
+        h1 {
+            margin: 1% 0 1% 0;
+        }
+    }
+
+}
+
 
 @media screen and (max-width: 970px) {
     header {
@@ -203,15 +229,16 @@ footer{
 
 @media screen and (max-width:690px) {
 
-    .team{
+    .team {
         min-height: 1280px;
-        .team-rows{
+
+        .team-rows {
             align-items: center;
             justify-content: center;
             flex-direction: column;
             height: 100%;
-           
+
         }
     }
-    
+
 }
